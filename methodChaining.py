@@ -1,11 +1,10 @@
 def chaining(a):
-    result = a
     def wrapper(b=None):
-        nonlocal result
         if not b:
-            return result
-        result += b
+            return wrapper.result
+        wrapper.result += b
         return wrapper
+    wrapper.result = a
     return wrapper
 
         

@@ -10,7 +10,7 @@ def bits(n):
         k += 1
     return nums
 
-# chad solution O(n)
+# solution O(n)
 # def countBits(num: int):
 #     counter = [0]
 #     for i in range(1, num+1):

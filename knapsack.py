@@ -40,6 +40,6 @@ def repeatKnapsack(arr, cap):
 #                     knapsack[i][w] = val
 #     return knapsack
 
-print(repeatKnapsack([[20, 4], [18, 3], [14, 2]], 12419412481))
+print(repeatKnapsack([[20, 4], [14, 2], [18, 3]], 1231321))
 # print(noRepeatKnapsack([[30, 6], [14, 3], [16, 4], [9, 2]], 11))   
 

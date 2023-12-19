@@ -27,4 +27,4 @@ def get_maximum_value(dataset):
             m[i][j], M[i][j] = MinMax(i,j,op,m,M) 
     return M[0][n-1]
 
-print(get_maximum_value([5,"+", 8]))
+print(get_maximum_value([5,"+", 8, "-", 3]))

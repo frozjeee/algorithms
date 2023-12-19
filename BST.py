@@ -147,10 +147,10 @@ def main():
     a.add(8)
     a.add(2)
     a.add(1)
-    # a.printTreeDFS()
+    a.printTreeDFS()
     # a.reverse()
     # print("-----")
-    a.printTreeDFS()
-    # a.prettyPrintTree()
+    # a.printTreeDFS()
+    a.prettyPrintTree()
 if __name__ == "__main__":
     main()

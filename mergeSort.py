@@ -17,7 +17,7 @@ def mergeSort(arr):
     if len(arr) == 1:
         return arr
     m = int(len(arr) / 2)
-    B = mergeSort(arr[0: m])
+    B = mergeSort(arr[:m])
     C = mergeSort(arr[m:])
     A = Merge(B, C)
     return A    
